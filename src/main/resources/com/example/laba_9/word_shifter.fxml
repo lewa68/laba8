@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.WordShifter"
+      spacing="10"
+      padding="10">
+    <HBox spacing="10">
+        <TextField fx:id="textField1" prefWidth="200"/>
+        <Button fx:id="swapButton" text="-->" onAction="#initialize"/>
+        <TextField fx:id="textField2" prefWidth="200"/>
+    </HBox>
+</VBox>
